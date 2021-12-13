@@ -32,6 +32,7 @@ def greet_user():
     else:
         speak(f'Boa noite {USERNAME}')
 
-    speak(f'Eu sou o {BOTNAME}. Como vai você? Esta é minha primeira apresentação em público e sou muito tímido. Perdoe meu jeito retraído.')
+    speak(f'Eu sou o {BOTNAME}. Como vai você?')
+    speak('Esta é minha primeira apresentação em público e sou muito tímido. Perdoe meu jeito retraído.')
 
 greet_user()
